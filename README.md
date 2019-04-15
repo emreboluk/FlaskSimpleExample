@@ -16,7 +16,7 @@ sudo apt-get install python-pip
 
 sudo pip install Flask
 
-# github ile buradaki çalışmayı kopyalayıp çalıştırmak için
+# git ile buradaki çalışmayı kopyalayıp çalıştırmak için
 git clone https://github.com/emreboluk/FlaskSimpleExample.git
 
 cd FlaskSimpleExample
