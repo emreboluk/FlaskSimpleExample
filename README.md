@@ -2,7 +2,7 @@
 
 Bu python 2.7 için basit bir Flask örneğidir. (ufak düzenlemelerle python3 için de çalışır)
 
-http://qpython.club forum sitesi için düzenlenmiştir.
+http://qpython.club forum sitesi için hazırlanmıştır.
 
 # Flask Kurulumu
 pip install Flask
