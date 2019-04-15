@@ -59,6 +59,14 @@ def login():
 		if members.get(username) == password:
 			session['username'] = username
 			return redirect(url_for("index"))
+		else:
+			html = '''
+				<center>
+					<span>
+						Hatalı giriş yapıldı! <a href="/login"> Tekrar deneyin.</a>
+					</span>
+				<center>
+			'''
 	return html
 	
 if __name__ == "__main__":
